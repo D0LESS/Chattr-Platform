@@ -1,0 +1,6 @@
+customtkinter
+requests
+python-dotenv
+pillow
+sqlalchemy
+passlib[bcrypt]
