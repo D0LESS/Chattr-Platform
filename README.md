@@ -1,7 +1,7 @@
-# Chattr-Platform
-Chattr - AI Assistant Platform
+# OmniThreads
+OmniThreads - AI Assistant Platform
 
-# 🚀 Chattr-Platform
+# 🚀 OmniThreads
 
 Chattr is a sleek, AOL-style desktop app built in Python. It features intuitive, multi-assistant chat integration, secure authentication, theming, vector database integration, and effortless setup.
 
@@ -21,8 +21,8 @@ Chattr is a sleek, AOL-style desktop app built in Python. It features intuitive,
 
 - Clone explicitly from GitHub:
 ```bash
-git clone https://github.com/D0LESS/Chattr-Platform.git
-cd Chattr-Platform\Installer
+git clone https://github.com/D0LESS/OmniThreads.git
+cd OmniThreads\Installer
 null.
 
 python -m venv installer_env
@@ -33,7 +33,7 @@ python installer.py
 null.
 
 📂 Project Structure Explicitly Defined
-Chattr-Platform/
+OmniThreads/
 ├── Backend/                # FastAPI backend explicitly
 ├── Frontend_desktop/       # Tkinter GUI
 ├── Installer/              # Installer scripts explicitly
@@ -71,7 +71,7 @@ null.
 ### ✅ Step 2: Explicit Setup of Telemetry/Error Logging (critical explicitly):
 
 Create explicitly new file clearly named exactly:
-Chattr-Platform/Backend/logger.py
+OmniThreads/Backend/logger.py
 
 Copy explicitly exactly this content clearly:
 
