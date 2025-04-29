@@ -1,0 +1,38 @@
+# Core
+python-dotenv
+gradio
+cryptography
+
+# LLM/AI platform
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+
+# Vector DB
+chromadb
+
+# Dev/Code tools
+black
+ruff
+mypy
+pytest
+pip-audit
+pdoc3
+
+# Code search/symbol tools
+requests
+# For live code/project search:
+# Install ripgrep and universal-ctags via your system package manager,
+# e.g., brew install ripgrep ctags (Mac), choco install ripgrep (Windows)
+
+# Browser automation for UX/UI sandbox
+selenium
+
+# For Vivaldi screenshot/UX:
+# Download chromedriver and add to PATH (https://chromedriver.chromium.org/).
+# Vivaldi is detected via options.binary_location in the tool.
+
+# Optionally add:
+# pillow          # for additional image/screenshot processing
+# flask, fastapi  # if running UI sandboxes or local APIs

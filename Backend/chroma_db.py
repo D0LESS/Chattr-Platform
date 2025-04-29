@@ -1,12 +1,12 @@
 import chromadb
-from chromadb.config import Settings
+
 from sentence_transformers import SentenceTransformer
 
 # Initialize sentence transformer model for embeddings (used explicitly)
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Connect explicitly to local ChromaDB instance (change settings for cloud later easily)
-client = chromadb.Client(Settings(persist_directory="../data/vector_store"))
+client = chromadb.PersistentClient(persist_directory="../data/vector_store"))
 collection = client.get_or_create_collection(name="chattr_vectors")
 
 # Explicitly defined function clearly for adding documents to vector store:
